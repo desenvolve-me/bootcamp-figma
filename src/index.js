@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Sobre from './paginas/Sobre.js';
+import Faq from './paginas/Faq.js';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Sobre />
+    <Faq />
   </React.StrictMode>,
   document.getElementById('root')
 );
