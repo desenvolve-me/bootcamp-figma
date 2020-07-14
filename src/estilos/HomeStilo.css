@@ -1,0 +1,26 @@
+.Componente {
+    display: flex;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.esquerda {
+    background-color: #0A0057;
+    color: #FFFFFF;
+    flex: 1;
+}
+
+.direita {
+    background-color: #78CFFD;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 500px;
+    height: 236px;
+}
