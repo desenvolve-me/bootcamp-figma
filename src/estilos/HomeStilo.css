@@ -1,15 +1,29 @@
-.Componente {
+.container_home {
     display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    height: 100%;
 }
 
 h1 {
     color: #FFFFFF;
+}
+.texto_home{
+    margin: 30px;
+
 }
 
 .esquerda {
     background-color: #0A0057;
     color: #FFFFFF;
     flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .direita {
@@ -18,9 +32,30 @@ h1 {
     flex: 1;
     align-items: center;
     justify-content: center;
+    height: 100%;
 }
 
 #logo {
     width: 500px;
     height: 236px;
+}
+
+#imghomefinal{
+height: 500px;
+width: 500px;
+
+}
+
+#section_home{
+    display:flex;
+
+}
+
+.div_imagem{
+    flex:1;
+
+}
+
+.div_lista{
+    flex:1;
 }

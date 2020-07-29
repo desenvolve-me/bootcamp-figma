@@ -6,7 +6,8 @@ import Faq from './paginas/Faq.js';
 import Missao from './paginas/Missao.js';
 import * as serviceWorker from './serviceWorker';
 import Home from './paginas/Home';
-import './estilos/HomeStilo.css'
+import './estilos/HomeStilo.css';
+import './estilos/StiloPadrao.css';
 
 ReactDOM.render(
   <React.StrictMode>
