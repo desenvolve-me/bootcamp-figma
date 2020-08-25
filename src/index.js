@@ -9,10 +9,11 @@ import Home from './paginas/Home';
 import PaginaTestes from './paginas/PaginaTestes';
 import './estilos/HomeStilo.css';
 import './estilos/StiloPadrao.css';
+import Login from './paginas/Login'
 
 ReactDOM.render(
   <React.StrictMode>
-    <PaginaTestes />
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 );
