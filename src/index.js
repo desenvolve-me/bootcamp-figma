@@ -10,10 +10,12 @@ import PaginaTestes from './paginas/PaginaTestes';
 import './estilos/HomeStilo.css';
 import './estilos/StiloPadrao.css';
 import Login from './paginas/Login'
+import Testes from './paginas/Testes'
+import BarraDeBusca from './paginas/BarraDeBusca'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <BarraDeBusca />
   </React.StrictMode>,
   document.getElementById('root')
 );
